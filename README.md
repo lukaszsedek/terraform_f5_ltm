@@ -1,4 +1,4 @@
-# F5 BIG-IP with terraform
+# F5 BIG-IP with terraform [![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
 
 The aim of this work is to demonstrate how to leverage terraform bigip module for Intrastructure As a Code approach.
 
