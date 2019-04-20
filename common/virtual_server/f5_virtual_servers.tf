@@ -1,6 +1,7 @@
 resource "bigip_ltm_virtual_server" "vip1" {
-  destination = "10.2.1.33"
-  name = "/Common/VIP1"
+  destination = "${var.vip_address}"
+  name = "${var.vip_name}"
   port = 443
-  pool = "${bigip_ltm_pool.pool1.name}"
+  source_address_translation = "automap"
+  pool = "${var.pool_name}"
 }
